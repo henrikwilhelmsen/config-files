@@ -1,0 +1,28 @@
+import:
+  - ./dracula-theme/dracula.yml
+window:
+  dimensions:
+    columns: 100
+    lines: 30
+  padding:
+    x: 25
+    y: 20
+  dynamic_padding: true
+  decorations: none
+  opacity: 0.95
+  title: Alacritty
+  dynamic_title: false
+  class:
+    instance: Alacritty
+    general: Alacritty
+font:
+  normal:
+    family: MesloLGM Nerd Font
+  size: 16.0
+cursor:
+  style:
+    shape: Beam
+shell:
+  program: /usr/bin/fish
+key_bindings:
+  - { key: N, mods: Control|Shift, action: CreateNewWindow }
