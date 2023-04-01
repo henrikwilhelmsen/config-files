@@ -3,11 +3,11 @@ if status --is-login
 end
 
 if status is-interactive
-    # Commands to run in interactive sessions can go here
+    oh-my-posh --init --shell fish --config "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/ys.omp.json" | source
 end
 
-# Activate oh-my-posh
-oh-my-posh --init --shell fish --config "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/ys.omp.json" | source
-
-# pyenv setup
 pyenv init - | source
+
+if command_exists podman
+    alias docker=podman
+end
