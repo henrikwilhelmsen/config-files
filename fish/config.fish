@@ -7,7 +7,3 @@ if status is-interactive
 end
 
 pyenv init - | source
-
-if command_exists podman
-    alias docker=podman
-end
