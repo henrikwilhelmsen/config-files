@@ -11,12 +11,14 @@
     },
     "profiles": {
         "defaults": {
-            "colorScheme": "GruvboxDark",
+            "colorScheme": "Monokai Pro (Filter Octagon)",
             "font": {
-                "face": "MesloLGM NF",
+                "face": "MesloLGM Nerd Font",
                 "size": 16.0
             },
-            "padding": "24"
+            "opacity": 90,
+            "padding": "24",
+            "useAcrylic": true
         }
     },
     "schemes": [
