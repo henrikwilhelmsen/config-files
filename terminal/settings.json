@@ -11,7 +11,7 @@
     },
     "profiles": {
         "defaults": {
-            "colorScheme": "Monokai Pro",
+            "colorScheme": "Monokai Pro (Filter Octagon)",
             "font": {
                 "face": "MesloLGM Nerd Font",
                 "size": 16.0
